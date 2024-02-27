@@ -1,0 +1,131 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin-top: -10px;
+    color: white;
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: -40px;
+}
+body{
+    background-color: rgb(22, 176, 227);
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+
+.matrix{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    
+    
+}
+
+#gamebutton{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(22, 176, 227);
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#gamebutton:hover{
+    background-color: pink;
+}
+
+
+
+.b1{
+    border: none;
+    border-bottom: 5px solid black;
+}
+
+.b2{
+    border: none;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+.b3{
+    border: none;
+    border-bottom: 5px solid black;
+    
+}
+.b4{
+    border: none;
+    border-bottom: 5px solid black;
+   
+}
+.b5{
+    border: none;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+   
+    border-left: 5px solid black;
+}
+
+
+.b6{
+    border:none;
+    border-bottom: 5px solid black;
+   
+   
+}
+.b7{
+    border:none;   
+}
+.b8{
+    border:none;
+    border-right: 5px solid black;
+ 
+    border-left: 5px solid black;
+
+}
+.b9{
+    border:none;
+}
+
+.restart{
+    height: 52px;
+    width: 100px;
+    border: 2px solid pink;
+    background-color: yellow;
+    font-size: 20px;
+
+}
+.reset{
+    height: 52px;
+    width: 100px;
+    border: 2px solid pink;
+    background-color: yellow;
+    font-size: 20px;
+
+}
+.result{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   margin-bottom: -50px;
+    font-family: cursive;
+
+    
+}
+.score{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+}
+
